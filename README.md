@@ -4,6 +4,6 @@ This is a template repository to help getting started working on the Laravel pro
 - Theme integration (Core UI)
 - Authentication with social login
 - Role-based Access Control
-- more
+- OP Cache
+- and more!
 
-Thanks!
