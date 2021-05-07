@@ -30,7 +30,7 @@
     <!-- <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png"> -->
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" href="https://unpkg.com/@coreui/coreui/dist/css/coreui.min.css">
+    <link rel="stylesheet" href="{{ asset('vendors/@coreui/coreui.min.css') }}">
     <link rel="stylesheet" href="https://unpkg.com/@coreui/icons@2.0.0-beta.3/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/@coreui/icons@2.0.0-beta.3/css/free.min.css">
     <link rel="stylesheet" href="https://unpkg.com/@coreui/icons@2.0.0-beta.3/css/brand.min.css">
