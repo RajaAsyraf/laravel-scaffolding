@@ -24,8 +24,11 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="https://unpkg.com/@coreui/coreui/dist/js/coreui.bundle.min.js" defer></script>
+    <script src="{{ asset('vendors/@coreui/chartjs/js/coreui-chartjs.bundle.js') }}" defer></script>
+    <script src="{{ asset('vendors/@coreui/utils/coreui-utils.js') }}" defer></script>
+    <script src="{{ asset('vendors/@coreui/js/main.js') }}" defer></script>
+    <script src="{{ asset('js/app.js') }}" defer></script>
 </head>
 
 <body class="c-app">
@@ -40,6 +43,10 @@
                     </div>
                 </div>
             </main>
+            <footer class="c-footer">
+                <div><a href="https://coreui.io">CoreUI</a> © 2020 creativeLabs.</div>
+                <div class="ml-auto">Powered by&nbsp;<a href="https://coreui.io/">CoreUI</a></div>
+            </footer>
         </div>
     </div>
 </body>
