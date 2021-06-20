@@ -1,17 +1,17 @@
 <div class="c-sidebar c-sidebar-dark c-sidebar-fixed c-sidebar-lg-show" id="sidebar">
     <div class="c-sidebar-brand d-lg-down-none">
         <svg class="c-sidebar-brand-full" width="118" height="46" alt="CoreUI Logo">
-            <use xlink:href="vendors/@coreui/brand/coreui.svg#full"></use>
+            <use xlink:href="{{ asset('vendors/@coreui/brand/coreui.svg#full') }}"></use>
         </svg>
         <svg class="c-sidebar-brand-minimized" width="46" height="46" alt="CoreUI Logo">
-            <use xlink:href="vendors/@coreui/brand/coreui.svg#signet"></use>
+            <use xlink:href="{{ asset('vendors/@coreui/brand/coreui.svg#signet') }}"></use>
         </svg>
     </div>
     <ul class="c-sidebar-nav">
         <li class="c-sidebar-nav-item">
             <a class="c-sidebar-nav-link" href="{{ route('dashboard') }}">
                 <svg class="c-sidebar-nav-icon">
-                    <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-speedometer"></use>
+                    <use xlink:href="{{ asset('vendors/@coreui/icons/svg/free.svg#cil-speedometer') }}"></use>
                 </svg>
                 Dashboard<span class="badge badge-info">NEW</span>
             </a>
@@ -19,19 +19,19 @@
         <li class="c-sidebar-nav-title">Theme</li>
         <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="colors.html">
             <svg class="c-sidebar-nav-icon">
-                <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-drop"></use>
+                <use xlink:href="{{ asset('vendors/@coreui/icons/svg/free.svg#cil-drop') }}"></use>
             </svg> Colors</a>
         </li>
         <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="typography.html">
             <svg class="c-sidebar-nav-icon">
-                <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-pencil"></use>
+                <use xlink:href="{{ asset('vendors/@coreui/icons/svg/free.svg#cil-pencil') }}"></use>
             </svg> Typography</a>
         </li>
         <li class="c-sidebar-nav-title">Components</li>
         <li class="c-sidebar-nav-item c-sidebar-nav-dropdown">
             <a class="c-sidebar-nav-link c-sidebar-nav-dropdown-toggle" href="#">
                 <svg class="c-sidebar-nav-icon">
-                    <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-puzzle"></use>
+                    <use xlink:href="{{ asset('vendors/@coreui/icons/svg/free.svg#cil-puzzle') }}"></use>
                 </svg> Base
             </a>
             <ul class="c-sidebar-nav-dropdown-items">
@@ -72,7 +72,7 @@
         <li class="c-sidebar-nav-item c-sidebar-nav-dropdown"><a
                 class="c-sidebar-nav-link c-sidebar-nav-dropdown-toggle" href="#">
                 <svg class="c-sidebar-nav-icon">
-                    <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-cursor"></use>
+                    <use xlink:href="{{ asset('vendors/@coreui/icons/svg/free.svg#cil-cursor') }}"></use>
                 </svg> Buttons</a>
             <ul class="c-sidebar-nav-dropdown-items">
                 <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="buttons/buttons.html"><span
@@ -87,11 +87,11 @@
         </li>
         <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="charts.html">
                 <svg class="c-sidebar-nav-icon">
-                    <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-chart-pie"></use>
+                    <use xlink:href="{{ asset('vendors/@coreui/icons/svg/free.svg#cil-chart-pie') }}"></use>
                 </svg> Charts</a></li>
         <li class="c-sidebar-nav-dropdown"><a class="c-sidebar-nav-dropdown-toggle" href="#">
                 <svg class="c-sidebar-nav-icon">
-                    <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-star"></use>
+                    <use xlink:href="{{ asset('vendors/@coreui/icons/svg/free.svg#cil-star') }}"></use>
                 </svg> Icons</a>
             <ul class="c-sidebar-nav-dropdown-items">
                 <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="icons/coreui-icons-free.html">
@@ -105,7 +105,7 @@
         <li class="c-sidebar-nav-item c-sidebar-nav-dropdown">
             <a class="c-sidebar-nav-link c-sidebar-nav-dropdown-toggle" href="#">
                 <svg class="c-sidebar-nav-icon">
-                    <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-bell"></use>
+                    <use xlink:href="{{ asset('vendors/@coreui/icons/svg/free.svg#cil-bell') }}"></use>
                 </svg> Notifications
             </a>
             <ul class="c-sidebar-nav-dropdown-items">
@@ -129,7 +129,7 @@
         <li class="c-sidebar-nav-item">
             <a class="c-sidebar-nav-link" href="widgets.html">
                 <svg class="c-sidebar-nav-icon">
-                    <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-calculator"></use>
+                    <use xlink:href="{{ asset('vendors/@coreui/icons/svg/free.svg#cil-calculator') }}"></use>
                 </svg> Widgets<span class="badge badge-info">NEW</span>
             </a>
         </li>
@@ -138,35 +138,35 @@
         <li class="c-sidebar-nav-item c-sidebar-nav-dropdown">
             <a class="c-sidebar-nav-link c-sidebar-nav-dropdown-toggle" href="#">
                 <svg class="c-sidebar-nav-icon">
-                    <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-star"></use>
+                    <use xlink:href="{{ asset('vendors/@coreui/icons/svg/free.svg#cil-star') }}"></use>
                 </svg> Pages
             </a>
             <ul class="c-sidebar-nav-dropdown-items">
                 <li class="c-sidebar-nav-item">
                     <a class="c-sidebar-nav-link" href="login.html" target="_top">
                         <svg class="c-sidebar-nav-icon">
-                            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-account-logout"></use>
+                            <use xlink:href="{{ asset('vendors/@coreui/icons/svg/free.svg#cil-account-logout') }}"></use>
                         </svg> Login
                     </a>
                 </li>
                 <li class="c-sidebar-nav-item">
                     <a class="c-sidebar-nav-link" href="register.html" target="_top">
                         <svg class="c-sidebar-nav-icon">
-                            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-account-logout"></use>
+                            <use xlink:href="{{ asset('vendors/@coreui/icons/svg/free.svg#cil-account-logout') }}"></use>
                         </svg> Register
                     </a>
                 </li>
                 <li class="c-sidebar-nav-item">
                     <a class="c-sidebar-nav-link" href="404.html" target="_top">
                         <svg class="c-sidebar-nav-icon">
-                            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-bug"></use>
+                            <use xlink:href="{{ asset('vendors/@coreui/icons/svg/free.svg#cil-bug') }}"></use>
                         </svg> Error 404
                     </a>
                 </li>
                 <li class="c-sidebar-nav-item">
                     <a class="c-sidebar-nav-link" href="500.html" target="_top">
                         <svg class="c-sidebar-nav-icon">
-                            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-bug"></use>
+                            <use xlink:href="{{ asset('vendors/@coreui/icons/svg/free.svg#cil-bug') }}"></use>
                         </svg> Error 500
                     </a>
                 </li>
@@ -175,14 +175,14 @@
         <li class="c-sidebar-nav-item mt-auto">
             <a class="c-sidebar-nav-link c-sidebar-nav-link-success" href="https://coreui.io" target="_top">
                 <svg class="c-sidebar-nav-icon">
-                    <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-cloud-download"></use>
+                    <use xlink:href="{{ asset('vendors/@coreui/icons/svg/free.svg#cil-cloud-download') }}"></use>
                 </svg> Download CoreUI
             </a>
         </li>
         <li class="c-sidebar-nav-item">
             <a class="c-sidebar-nav-link c-sidebar-nav-link-danger" href="https://coreui.io/pro/" target="_top">
                 <svg class="c-sidebar-nav-icon">
-                    <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-layers"></use>
+                    <use xlink:href="{{ asset('vendors/@coreui/icons/svg/free.svg#cil-layers') }}"></use>
                 </svg> Try CoreUI<strong>PRO</strong>
             </a>
         </li>
